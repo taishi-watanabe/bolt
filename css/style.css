@@ -42,11 +42,11 @@ body{
   float: right;
   font-size: 12px;
   text-decoration: none;
+  transition: 0.3s;
 }
 
 .header-btn{
   padding: 14px 12px;
-  transition: 0.3s
 }
 
 .btn:hover{
@@ -85,7 +85,6 @@ body{
 
 .do-it-img{
   width: 400px;
-  padding: 0 100px;
 }
 
 
@@ -94,6 +93,7 @@ body{
 }
 
 .d-text{
+  width: 700px;
   font-size: 20px;
   margin-top: 35px;
   line-height: 25px;
@@ -115,12 +115,12 @@ body{
 .our-pic{
   display: inline-block;
   margin:0 100px 80px 0;
-
+  opacity: 0.7;
+  transition: 0.3s;
 }
 
 .our-pic:hover{
-  opacity: 0.3;
-  transition-duration: 0.3s
+  opacity: 1;
 }
 
 .our-pic:nth-child(3n){
@@ -159,13 +159,13 @@ body{
 }
 
 .skill-title{
-  margin: 0 auto;
   font-size: 24px;
   margin-bottom: 70px;
 }
 
 .skill-content{
   display: flex;
+  /* justify-content: center; */
 }
 
 .skill-img{
@@ -199,7 +199,6 @@ body{
 
 
 .sns-icon:hover{
-  transition: 0.3s;
   background-color: #fff;
 }
 
