@@ -32,6 +32,11 @@ body{
   font-size: 40px;
 }
 
+
+.menu-icon input{
+  display: none;
+}
+
 .header-nav{
   float: right;
 }
@@ -237,6 +242,7 @@ body{
 
   .do-it-img{
     width: 100%;
+    margin-bottom: 20px;
   }
 
 
@@ -244,22 +250,24 @@ body{
     width: 100%;
   }
 
-  .iphone{
-    margin-bottom: 20px;
-  }
-
 
   .our-pic{
     margin: 0 auto;
     display: block;
+    max-width: 300px;
   }
 
   .our-pic:nth-child(3n){
-    margin-bottom: 80px;
+    margin: 0 auto 80px auto;
+  }
+
+  .our-pic:last-child{
+    margin-bottom: 0;
   }
 
   .our-text{
     flex-direction: column;
+    padding: 0;
   }
 
   .pic-text{
@@ -282,11 +290,10 @@ body{
   .skill-img:last-child{
     margin: 0 auto;
   }
-}
 
-@media screen and (min-width:768px){
-  .menu-icon{
-    display: none;
+
+  .sns-icon{
+    width: 25%;
   }
 }
 
@@ -332,6 +339,7 @@ body{
   .theme{
     font-size: 80px;
     margin-bottom: 20px;
+    margin: 0;
   }
   
   .sub-theme{
@@ -341,6 +349,10 @@ body{
   
   .sns{
     padding: 50px 15px;
+  }
+
+  .sns-icon{
+    width: 100%;
   }
 }
 
