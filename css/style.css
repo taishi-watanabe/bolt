@@ -171,7 +171,6 @@ body{
 }
 
 .skill-img{
-  /* margin: 0 auto; */
   margin-right: 180px;
 }
 
@@ -221,5 +220,127 @@ body{
 
 
 
+@media screen and (max-width:1199px){
+  .inner{
+    width: 97%;
+    margin: 0 auto;
+  }
 
+
+  .do-it{
+    padding-bottom: 25px;
+  }
+
+  .do-it-inner{
+    flex-direction: column;
+  }
+
+  .do-it-img{
+    width: 100%;
+  }
+
+
+  .d-text-box{
+    width: 100%;
+  }
+
+  .iphone{
+    margin-bottom: 20px;
+  }
+
+
+  .our-pic{
+    margin: 0 auto;
+    display: block;
+  }
+
+  .our-pic:nth-child(3n){
+    margin-bottom: 80px;
+  }
+
+  .our-text{
+    flex-direction: column;
+  }
+
+  .pic-text{
+    margin: 0 auto 40px auto;
+  }
+
+  .pic-btn{
+    margin: 0 auto;
+  }
+
+
+  .skill-content{
+    flex-direction: column;
+  }
+
+  .skill-img{
+    margin: 0 auto 88px auto;
+  }
+
+  .skill-img:last-child{
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width:768px){
+  .menu-icon{
+    display: none;
+  }
+}
+
+
+@media screen and (max-width:767px){
+  .header-btn{
+    display: none;
+  }
+
+  .hambarg{
+    display: none;
+  }
+
+  .menu-label{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    padding: 10px;
+  }
+
+
+  .line{
+    background-color: #ddd;
+    display: block;
+    height: 3px;
+    width: 25px;
+    margin-top: 5px;
+  }
+
+  .line:first-child{
+    margin-top: 0;
+  }
+
+  .menu-icon{
+    float: right;
+  }
+
+  .title{
+    padding: 160px 0 130px 0;
+  }
+
+  .theme{
+    font-size: 80px;
+    margin-bottom: 20px;
+  }
+  
+  .sub-theme{
+    font-size: 30px;
+  }
+
+  
+  .sns{
+    padding: 50px 15px;
+  }
+}
 
